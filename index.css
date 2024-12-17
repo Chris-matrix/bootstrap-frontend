@@ -1,0 +1,61 @@
+<style>
+  /* Custom styles for Pokemon theme */
+  body {
+    background-color: #6e5858;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Added for better readability */
+  }
+
+  .navbar {
+    background-color: #0c93dc;
+  }
+
+  .navbar-brand {
+    color: #ffffff !important; /* Added !important to ensure it overrides Bootstrap */
+    font-weight: bold;
+  }
+
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease; /* Added 'ease' for smoother transition */
+    margin-bottom: 20px; /* Added for spacing between cards */
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card-title {
+    color: #3c5aa6;
+    font-weight: bold;
+  }
+
+  .btn-primary {
+    background-color: #ffcb05;
+    border-color: #ffcb05;
+    color: #000000;
+    transition: all 0.3s ease; /* Added for smooth hover effect */
+  }
+
+  .btn-primary:hover {
+    background-color: #c7a008;
+    border-color: #c7a008;
+    color: #ffffff; /* Changed to white for better contrast */
+  }
+
+  footer {
+    background-color: #2a75bb;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 30px; /* Added to ensure some space above the footer */
+  }
+
+  /* Added styles for better responsiveness */
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 15px;
+    }
+  }
+</style>
